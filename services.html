@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Abhay Clinic</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><i class="fas fa-heart-pulse"></i> Abhay Clinic</a>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="section-title">
+      <h2>Medical Services</h2>
+      <p>Comprehensive healthcare solutions under one roof</p>
+    </div>
+    <div class="grid">
+      <div class="card service-card">
+        <i class="fas fa-stethoscope"></i>
+        <h3>General Medicine</h3>
+        <p>Fever, infections, chronic disease management (Diabetes, BP, Thyroid), and routine health checkups.</p>
+        <p class="price">Consultation: ₹300</p>
+      </div>
+      <div class="card service-card">
+        <i class="fas fa-baby"></i>
+        <h3>Pediatric Care</h3>
+        <p>Vaccinations, growth monitoring, childhood illnesses, and nutritional guidance for infants & children.</p>
+        <p class="price">Consultation: ₹400</p>
+      </div>
+      <div class="card service-card">
+        <i class="fas fa-syringe"></i>
+        <h3>Pathology & Diagnostics</h3>
+        <p>Blood tests, urine analysis, ECG, and rapid diagnostic services with accurate & fast reporting.</p>
+        <p class="price">As per test</p>
+      </div>
+      <div class="card service-card">
+        <i class="fas fa-lungs"></i>
+        <h3>Respiratory Care</h3>
+        <p>Asthma, COPD, allergy management, and nebulization therapy available on-site.</p>
+        <p class="price">Consultation: ₹350</p>
+      </div>
+      <div class="card service-card">
+        <i class="fas fa-kit-medical"></i>
+        <h3>Minor Procedures</h3>
+        <p>Dressing, wound care, nebulization, IV fluids, and basic first aid services.</p>
+        <p class="price">Starting from ₹200</p>
+      </div>
+      <div class="card service-card">
+        <i class="fas fa-pills"></i>
+        <h3>Pharmacy Support</h3>
+        <p>On-site medicine guidance, generic alternatives, and prescription refill assistance.</p>
+        <p class="price">Free Consultation</p>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="contact.html" class="btn">Schedule a Visit</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Abhay Clinic</h3>
+        <p>Providing reliable healthcare since 2018. We believe in preventive care and patient education.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Working Hours</h3>
+        <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+        <p>Sunday: 10:00 AM - 4:00 PM</p>
+        <p>Emergency: 24/7 Call Support</p>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; <span id="year"></span> Abhay Clinic. All Rights Reserved.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
